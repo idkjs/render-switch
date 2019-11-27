@@ -25,7 +25,7 @@ let sum = (a: summable, b: summable) => {
   | (`px(a), `px(b)) => `px(a + b)
   | (`px(a), `mm(b)) => `px(a + int_of_float(b))
   | (`mm(a), `mm(b)) => `mm(a +. b)
-  // | (`mm(a), `px(b)) => `mm(a +. float_of_int(b))
+  | (`mm(a), `px(b)) => `mm(a +. float_of_int(b))
   };
 };
 
