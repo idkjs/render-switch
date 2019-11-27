@@ -79,10 +79,6 @@ module RenderSwitch = {
 
 ReactDOMRe.renderToElementWithId(<RenderSwitch />, "root");
 
-
-
-
-
 // // Entry point
 
 // [@bs.val] external document: Js.t({..}) = "document";

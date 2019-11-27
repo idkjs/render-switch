@@ -1,7 +1,7 @@
 {
   "name": "reason-react-examples",
   "reason": {
-    "react-jsx": 3,
+    "react-jsx": 3
   },
   "sources": {
     "dir" : "src",
@@ -17,5 +17,14 @@
   "bs-dependencies": [
     "reason-react"
   ],
+  "gentypeconfig": {
+    "language": "flow",
+    "shims": {},
+    "debug": {
+      "all": false,
+      "basic": false
+    }
+},
+
   "refmt": 3
 }

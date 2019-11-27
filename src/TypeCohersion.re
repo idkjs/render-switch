@@ -14,7 +14,7 @@ type summable = [ | `px(int) | `mm(float)];
 
 /* o the compiler suggests ((mm , `px )|(px _, mm )) which means that something is missing, but not specifically that. It gives you the same suggestion if any options are missing at all. So basically its asy you are missing a variant which handles an argument in this
 
-uncomment the last option and compiler is happy. */
+   uncomment the last option and compiler is happy. */
 let sum = (a: summable, b: summable) => {
   switch (a, b) {
   | (`px(a), `px(b)) => `px(a + b)
